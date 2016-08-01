@@ -942,6 +942,7 @@ body .content .sitetable .link .title a:hover {
 /* Linkflairs */
 .linkflairlabel {
   padding: 2px 6px;
+  margin: 0 2px 0 6px;
   height: 18px;
   border-radius: $border-radius;
   border: 0 solid;
@@ -2641,16 +2642,17 @@ body.comments-page > .content {
 
 /* Sidebar stuff */
 .comments-page .side {
-  margin-top: 400px;
+  margin-top: 110px;
 
   .linkinfo {
     position: absolute;
-    top: 494px;
+    top: 350px;
     padding: 16px;
     width: 320px;
     background-color: $color-white;
     border-radius: $border-radius;
     border: none;
+    font-size: .9rem;
     @if ($enable-box-shadow) {
       box-shadow: 0 1px 5px $box-shadow;
     }
@@ -2665,7 +2667,17 @@ body.comments-page > .content {
 
     .score {
       color: $color-gray-darker;
+      margin: 10px 0
     }
+
+    .shortlink input {
+      font-size: .9rem;
+    }
+  }
+
+  .morelink {
+    top: 550px;
+    margin-left: 16px;
   }
 }
 
