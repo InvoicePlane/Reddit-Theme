@@ -1237,6 +1237,7 @@ body > .content .link.compressed .midcol {
 
     ul li {
       padding: 0 !important;
+      font-size: .8rem;
 
       .linkflair {
         text-align: left;
@@ -1256,12 +1257,6 @@ body > .content .link.compressed .midcol {
     }
   }
 
-  .linkflair:hover,
-  .flairselector li:hover {
-    background-color: $color-white-light;
-    border: 0 solid;
-  }
-
   form {
     padding-top: 12px;
     border-top: 1px solid $color-white-light;
@@ -1276,7 +1271,7 @@ body > .content .link.compressed .midcol {
       }
 
       .linkflair a.title {
-        font-size: 18px !important;
+        font-size: 1rem;
         opacity: 100 !important;
         color: $color-primary !important;
         cursor: default;
@@ -3332,12 +3327,12 @@ pre {
 .flair {
   border: none;
   border-radius: $border-radius;
-  font-size: 12px;
+  font-size: .9rem;
   font-weight: normal;
   background: transparent;
   color: $color-gray-dark;
   margin-left: 4px;
-  padding: 4px 6px;
+  padding: 2px 4px;
   margin-right: inherit;
 
   &-maintainer {
