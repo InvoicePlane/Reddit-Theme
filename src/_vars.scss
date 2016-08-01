@@ -1,0 +1,94 @@
+/*
+ | Variables
+ */
+
+// Options
+$enable-announcement: false;
+$enable-box-shadow: false;
+
+// Generic colors
+$color-black: #121517;
+$color-gray-darker: #292F34;
+$color-gray-dark: #515D66;
+$color-gray: #738491;
+$color-gray-light: #A2BACC;
+$color-gray-lighter: #CAE8FF;
+$color-gray-lighter-golden: #FFEBD9;
+$color-white-lighter: #EDEEEE;
+$color-white-light: #F5F8F9;
+$color-white: #FFF;
+
+// Brand colors
+$color-primary: #24A0ED;
+$color-primary-dark: #158BE2;
+$color-primary-darker: #0079D3;
+$color-primary-darkest: #0066B2;
+
+$color-green-dark: #189b51;
+$color-green: #27B062;
+$color-green-light: #36bb6f;
+$color-green-pretty: #4CAF50;
+$color-green-pretty-hover: #43A047;
+$color-green-pretty-dark: #1B5E20;
+$color-orange: #FF6422;
+$color-purple: #5C5BD7;
+$color-purple2-dark: #4258CA;
+$color-purple2: #516AE8;
+$color-purple2-light: #667DF0;
+$color-pink: #EA4876;
+$color-pig: #FB797E;
+
+$color-red-signal: #F44336;
+$color-red-light: #EC5B5B;
+$color-red: #EA4848;
+$color-red-dark: #C73D3D;
+
+// Layout colors
+$body-bg: #EEE;
+$bg-hover: #F1F1F1;
+$border-color: #C3CFD6;
+$border-color-dark: #738491;
+$focus-color: #24A0ED;
+$box-shadow: rgba(0, 0, 0, .12);
+$sr-header-bg: rgba(0, 0, 0, 0.15);
+$sr-header-text-color: rgba(255, 255, 255, 0.6);
+$sr-header-text-color-hover: rgba(255, 255, 255, 0.9);
+$meta-color: #98ABBA;
+$bg-meta: #EDF1F3;
+
+// Layout Vars
+$border-radius: 2px;
+
+// Fonts
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+$font-family-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-size-root: 14px;
+$font-size-base: 1rem;
+
+// Image placeholders
+$ph-spritesheet: '%%spritesheet%%';
+$ph-noresult: '%%noresults%%';
+$ph-logo: '%%logo-200x100%%';
+$ph-commentboxbg: '%%commentboxbg%%';
+$ph-headerimg: '%%headerimg%%';
+
+// Texts
+$txt-submit-text: 'Submit Text';
+$txt-submit-link: 'Submit Link';
+$txt-submit-after: ' your post to Reddit.';
+$txt-readers: ' readers';
+$txt-current-online: ' currently online';
+$txt-na: 'N/A';
+$txt-subreddit-info: 'Subreddit Info';
+$txt-naut-copy: 'This subreddit uses a modified version of the /r/Naut theme.';
+$txt-comments-ah: 'ah ';
+$txt-score-bullet: '• ';
+$txt-flair-bullet: '- ';
+$txt-downvote: 'For content that does not contribute to any discussion.';
+$txt-flairselect: 'Selected Flair:';
+$txt-flairinfo: 'Go to /r/.../about/flair';
+$txt-locked-comments-hint: ' Sort comments by new to find out more.';
+
+// Buttons
+$btn-bg: $color-primary-dark;
+$btn-bg-hover: $color-primary-darker;
